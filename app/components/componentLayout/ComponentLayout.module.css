@@ -1,0 +1,20 @@
+.container {
+  width: 80%;
+  margin: 0 auto 25px;
+  background: #e0eafc;
+  background: -webkit-linear-gradient(to right, #cfdef3, #e0eafc);
+  background: linear-gradient(to right, #cfdef3, #e0eafc);
+  padding: 20px 0px 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .label {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0px auto 20px;
+}

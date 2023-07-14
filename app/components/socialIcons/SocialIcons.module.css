@@ -1,0 +1,55 @@
+.container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.icon_container {
+  outline: 1px solid #fff;
+  outline-offset: 2px;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: scale 0.2s;
+  margin: 5px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  pointer-events: none;
+}
+
+.icon_container:hover {
+  scale: 1.1;
+}
+
+.icon_container:hover:nth-child(1) {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.icon_container:hover:nth-child(2) {
+  background-color: #1877f2;
+}
+
+.icon_container:hover:nth-child(3) {
+  background-color: #e60023;
+}
+
+.icon_container:hover:nth-child(4) {
+  background-color: #0a66c2;
+}
